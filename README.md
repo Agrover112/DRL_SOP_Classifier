@@ -3,8 +3,6 @@
 Libraries: sklearn,numpy,pandas,eli5,seaborn,matplotlib,spacy.
 
 **The following repository contains the code to the classifier for action classifcation task**.
-Main steps invloved are as follows:
-
 ### Data Analysis
 - A corpus of **2K sentences** labelled sentences consisting of valid and invalid SOPs collected from DRL web portal
 used for SOP generation.
