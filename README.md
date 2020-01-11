@@ -19,15 +19,15 @@ used for SOP generation.
   
  
  ### Models Used
+
+ All models were fine tuned on dev set and performed well on test set.
  
- **Note:Results may vary based on corpus size and type**
- 
- All models were tuned on dev set and performed well on test set.
+ Ensemble models yielded poor performance.
  
  
- - LSVM Linear Support Vector Machines 
- - MNB Multinomial Naive Bayes 
- - LR Logistic Regression
+ - **LSVM**:Linear Support Vector Machine
+ - **MNB** :Multinomial Naive Bayes 
+ - **LR** :Logistic Regression
  
  **Visualizing SVM's learned weights** 
  
@@ -35,7 +35,9 @@ used for SOP generation.
 
 ### Classification Results
 
-**~89% accuracy** was produced as a result of classification using SVM.
+ **Note:** Results may vary based on corpus size and type.
+ 
+**~89% accuracy** was produced as a result of classification using SVM on test set.(*Actual Test set is not used here.*)
 
 **PCA/TSNE** dimensionality reduction techniques were used to visualize results.
 
